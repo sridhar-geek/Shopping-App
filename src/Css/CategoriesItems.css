@@ -1,0 +1,15 @@
+.catge-con{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cat-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.cat-info{
+    
+}
