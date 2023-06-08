@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "../Css/Slider.css";
-import { sliderData } from "../Data/SliderData"
+import "../../Css/Slider.css";
+import { sliderData } from "../../Data"
 import { BiLeftArrow,BiRightArrow } from "react-icons/bi";
 
 function Slider() {
@@ -24,7 +24,7 @@ function Slider() {
                 {sliderData.map((page)=>(
                   <div className="slidePage" style={{backgroundColor:page.bgColor}}>
                     <div className="slideImage">
-                      <img src= {page.img} alt="shopping Image" className="img-img" />
+                      <img src= {page.img} alt="Imagine something" className="img-img" />
                     </div>
                     <div className="slideDesc">
                       <h1>{page.title}</h1>

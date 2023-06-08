@@ -1,6 +1,5 @@
 
-import Slider from './Component/Slider';
-import Home from './Pages/Home';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
