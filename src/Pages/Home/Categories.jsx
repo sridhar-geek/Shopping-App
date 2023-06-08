@@ -10,7 +10,6 @@ function Categories() {
       <div className="catge-con">
         {categoriesData.map((item)=>{
           <CategoryItems data={item}/>
-          console.log("this is coming from catagories")
         })}
       </div>
     </>

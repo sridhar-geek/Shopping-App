@@ -4,35 +4,35 @@ export const sliderData=[
         title:"Trending Now",
         desc:"Get styled with the trending fashion around the World",
         img: "https://i.ibb.co/cXFnLLV/3.png",
-        bg: "fbf0f4",
+        bg: "#ffafcc",
     },
     {
         id:2,
         title:"Offer Zone",
         desc:"Get 60 to 70% off on top brands in India ",
         img: "https://i.ibb.co/DG69bQ4/2.png",
-         bg: "fcf1ed",
+         bg: "rgb(226, 149, 120)",
     },
     {
         id:3,
         title:"Ethnic Wear",
         desc:"Buy these Premiumer Ethnic Designer wear",
         img: "../",
-        bgColor:"",
+        bg:"rgb(0, 150, 199)",
     },
     {
         id:4,
         title:"Summer Collection",
         desc:"Stay cool in the Hot Summer with these popular styles",
         img: "https://i.ibb.co/XsdmR2c/1.png",
-        bg: "f5fafd",
+        bg: "#457b9d",
     },
     {
         id:5,
         title:"Luxury Brands",
         desc:"Show Case Your Favorite brands with these",
         img: "",
-        bgColor:"",
+        bg:"#00afb9",
     }
 ]
 

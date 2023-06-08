@@ -3,6 +3,9 @@
     flex-direction: row;
 
 }
+.heading{
+    text-align: center;
+}
 
 .cat-container{
     flex: 1;

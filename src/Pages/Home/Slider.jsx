@@ -22,7 +22,7 @@ function Slider() {
             <BiLeftArrow className="left arrow" onClick={()=> handleClick("left")} />
           <div className="wrapperPage" style={{transform:`translate(${pageIndex*-100}vw)`}}>
                 {sliderData.map((page)=>(
-                  <div className="slidePage" style={{backgroundColor:page.bgColor}}>
+                  <div className="slidePage" style={{backgroundColor:page.bg}}>
                     <div className="slideImage">
                       <img src= {page.img} alt="Imagine something" className="img-img" />
                     </div>
