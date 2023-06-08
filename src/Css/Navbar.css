@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&family=Signika:wght@600&family=Ysabeau:wght@300&display=swap');
+
+.container {
+    height: 80px;
+}
+/* this holds all elements in navbar */
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+/* it holds langauge ,input,searchIcon */
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.language{
+    font-size: 14px;
+    cursor: pointer;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inp {
+    border: 0.5 solid lightgray;
+    border-radius: 5px;
+    margin-left:25px;
+    margin-right: 5px;
+}
+/* it holds logo */
+.center {
+    flex: 1;
+    font-size: 3rem;
+    user-select: none;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+}
+
+/* it holds register,sigin,cartIcon */
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.reg-sig{
+    margin-left: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
